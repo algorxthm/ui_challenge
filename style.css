@@ -1,0 +1,164 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+
+ .content{
+    padding-top: 4rem;
+     text-align: center;
+ }
+
+.headerimg{
+    width: 100%;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.quickSearch{
+ 
+    margin-left: 10%;
+}
+
+button.btn1{
+    transition: 0.3s;
+    position:relative;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    background-color: rgb(93,204,187);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 312px;   
+}
+
+.btn2{
+    position:relative;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+    background-color: rgb(136,151,254);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 312px;
+    border: none; 
+}
+
+.centerbtn{
+    margin: 0; position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .btn1 {
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+  }
+
+.img-device{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.appFunctions{
+    display:flex;
+    justify-content: center;    
+}
+
+.plainText, .sneaks, .blackLists{
+    margin-right: 2%; 
+}
+
+h2.functionheader{
+    text-align: center;
+}
+.Appfunctions.img{
+    position: fixed;    
+}
+
+footer{
+    background:#f5f6f8;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+}
+
+a{
+    padding: 60px 30px;  
+}
+
+table{
+    margin: auto;
+}
+
+.comIcons{
+    display:flex;   
+   justify-content: center;    
+}
+
+.google, .ibm, .microsoft, .hP, .vector{
+    margin-right: 2%;
+}
+
+.imageheader{
+    position: absolute;
+    width: 100%;
+    margin-top: "none";
+}
+
+.socialIcons{
+    display: flex;
+    margin-right: 80%;
+    gap: 2rem;
+}
+
+.logo{
+    margin-top: 50px;
+    position: absolute;
+    padding-left: 50px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 312px;
+    font-style: oblique;
+}
+
+h1, h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
